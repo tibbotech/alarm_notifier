@@ -1,5 +1,6 @@
 {
-    "name": "zephyr_email",
+    "id": "6b05258cb648250ba28df229",
+    "name": "Email Notifier",
     "device": "TPP2W(G2)",
     "description": "",
     "shortDescription": "",
@@ -7,6 +8,7 @@
     "runtime": "zephyr",
     "featureFlags": [],
     "featureFlagMap": {},
+    "skus": [],
     "features": [
         {
             "id": "boardsetting",
@@ -21,19 +23,26 @@
                 "DIN": "1",
                 "POWERADAPTER": "apr-p0008",
                 "ASM": "asm+rp",
-                "NOTES": ""
+                "NOTES": "",
+                "TIBBIT_STASH": ""
             }
         },
         {
             "id": "general",
             "settings": {
                 "ID": "mquecbkttwt2hgq703",
+                "GENERAL": "",
+                "ADVANCED": "",
                 "DEVICE_NAME": "Device_Name_1",
                 "FIRMWAREVERSION": "1.0.0",
                 "TIMEZONE": "27",
+                "DST": "0",
                 "LATITUDE": "0",
                 "LONGITUDE": "0",
-                "LOGGING": "sys.debugprint"
+                "LOGGING": "sys.debugprint",
+                "LOG_CONTROL": "0",
+                "LOG_DEBUG_MODULES": "all",
+                "PRJ_CONF": ""
             }
         },
         {
@@ -1379,6 +1388,246 @@
                             "DEFAULT": "1.0.0.1",
                             "POLL_INTERVAL": ""
                         }
+                    },
+                    {
+                        "id": "variable",
+                        "settings": {
+                            "ID": "mwu9zwahnjxgh3atrmi",
+                            "VARNAME": "T00_1_S1_GP1",
+                            "DATATYPE": "integer",
+                            "NAME": "",
+                            "FEATURE": "mwu9ztofwz3vgw0vv6",
+                            "FEATURE_SETTING": "NAME",
+                            "MINIMUM": -32768,
+                            "MAXIMUM": 32767,
+                            "DEFAULT": "0",
+                            "POLL_INTERVAL": ""
+                        }
+                    },
+                    {
+                        "id": "variable",
+                        "settings": {
+                            "ID": "mwu9zwb0a4xi7wpv66f",
+                            "VARNAME": "T00_1_S1_GP2",
+                            "DATATYPE": "integer",
+                            "NAME": "",
+                            "FEATURE": "mwu9ztofi26uoncfhi",
+                            "FEATURE_SETTING": "NAME",
+                            "MINIMUM": -32768,
+                            "MAXIMUM": 32767,
+                            "DEFAULT": "0",
+                            "POLL_INTERVAL": ""
+                        }
+                    },
+                    {
+                        "id": "variable",
+                        "settings": {
+                            "ID": "mwu9zwbh10iextjjumkn",
+                            "VARNAME": "T00_1_S1_GP3",
+                            "DATATYPE": "integer",
+                            "NAME": "",
+                            "FEATURE": "mwu9ztogdzd3l9a5lrf",
+                            "FEATURE_SETTING": "NAME",
+                            "MINIMUM": -32768,
+                            "MAXIMUM": 32767,
+                            "DEFAULT": "0",
+                            "POLL_INTERVAL": ""
+                        }
+                    },
+                    {
+                        "id": "variable",
+                        "settings": {
+                            "ID": "mwu9zwc1wyuo69f5udb",
+                            "VARNAME": "T00_1_S1_GP4",
+                            "DATATYPE": "integer",
+                            "NAME": "",
+                            "FEATURE": "mwu9ztoggjk0ks0zxqe",
+                            "FEATURE_SETTING": "NAME",
+                            "MINIMUM": -32768,
+                            "MAXIMUM": 32767,
+                            "DEFAULT": "0",
+                            "POLL_INTERVAL": ""
+                        }
+                    },
+                    {
+                        "id": "variable",
+                        "settings": {
+                            "ID": "mwu9zwcmoi00hkjh5hh",
+                            "VARNAME": "T00_1_S3_GP1",
+                            "DATATYPE": "integer",
+                            "NAME": "",
+                            "FEATURE": "mwu9ztolm7wv8hwqvc",
+                            "FEATURE_SETTING": "NAME",
+                            "MINIMUM": -32768,
+                            "MAXIMUM": 32767,
+                            "DEFAULT": "0",
+                            "POLL_INTERVAL": ""
+                        }
+                    },
+                    {
+                        "id": "variable",
+                        "settings": {
+                            "ID": "mwu9zwd3alylgfeuclu",
+                            "VARNAME": "T00_1_S3_GP2",
+                            "DATATYPE": "integer",
+                            "NAME": "",
+                            "FEATURE": "mwu9ztolh6l0k53rq1q",
+                            "FEATURE_SETTING": "NAME",
+                            "MINIMUM": -32768,
+                            "MAXIMUM": 32767,
+                            "DEFAULT": "0",
+                            "POLL_INTERVAL": ""
+                        }
+                    },
+                    {
+                        "id": "variable",
+                        "settings": {
+                            "ID": "mwu9zwdj1zfp6xto4b7",
+                            "VARNAME": "T00_1_S3_GP3",
+                            "DATATYPE": "integer",
+                            "NAME": "",
+                            "FEATURE": "mwu9ztomyf2h33can2",
+                            "FEATURE_SETTING": "NAME",
+                            "MINIMUM": -32768,
+                            "MAXIMUM": 32767,
+                            "DEFAULT": "0",
+                            "POLL_INTERVAL": ""
+                        }
+                    },
+                    {
+                        "id": "variable",
+                        "settings": {
+                            "ID": "mwu9zwdz3ip19r3dqlg",
+                            "VARNAME": "T00_1_S3_GP4",
+                            "DATATYPE": "integer",
+                            "NAME": "",
+                            "FEATURE": "mwu9ztom8wcnuvujf0j",
+                            "FEATURE_SETTING": "NAME",
+                            "MINIMUM": -32768,
+                            "MAXIMUM": 32767,
+                            "DEFAULT": "0",
+                            "POLL_INTERVAL": ""
+                        }
+                    },
+                    {
+                        "id": "variable",
+                        "settings": {
+                            "ID": "mwu9zwelylpib1kmz3",
+                            "VARNAME": "T00_1_S5_GP1",
+                            "DATATYPE": "integer",
+                            "NAME": "",
+                            "FEATURE": "mwu9ztors4ai78he1nh",
+                            "FEATURE_SETTING": "NAME",
+                            "MINIMUM": -32768,
+                            "MAXIMUM": 32767,
+                            "DEFAULT": "0",
+                            "POLL_INTERVAL": ""
+                        }
+                    },
+                    {
+                        "id": "variable",
+                        "settings": {
+                            "ID": "mwu9zwf0gqwpqg0ma6o",
+                            "VARNAME": "T00_1_S5_GP2",
+                            "DATATYPE": "integer",
+                            "NAME": "",
+                            "FEATURE": "mwu9ztoryf2ki3jimho",
+                            "FEATURE_SETTING": "NAME",
+                            "MINIMUM": -32768,
+                            "MAXIMUM": 32767,
+                            "DEFAULT": "0",
+                            "POLL_INTERVAL": ""
+                        }
+                    },
+                    {
+                        "id": "variable",
+                        "settings": {
+                            "ID": "mwu9zwfgblubfuz6koo",
+                            "VARNAME": "T00_1_S5_GP3",
+                            "DATATYPE": "integer",
+                            "NAME": "",
+                            "FEATURE": "mwu9ztorkqufriuiktm",
+                            "FEATURE_SETTING": "NAME",
+                            "MINIMUM": -32768,
+                            "MAXIMUM": 32767,
+                            "DEFAULT": "0",
+                            "POLL_INTERVAL": ""
+                        }
+                    },
+                    {
+                        "id": "variable",
+                        "settings": {
+                            "ID": "mwu9zwg43cvg83k05tx",
+                            "VARNAME": "T00_1_S5_GP4",
+                            "DATATYPE": "integer",
+                            "NAME": "",
+                            "FEATURE": "mwu9ztorpxpkducbrx7",
+                            "FEATURE_SETTING": "NAME",
+                            "MINIMUM": -32768,
+                            "MAXIMUM": 32767,
+                            "DEFAULT": "0",
+                            "POLL_INTERVAL": ""
+                        }
+                    },
+                    {
+                        "id": "variable",
+                        "settings": {
+                            "ID": "mwu9zwgvm5dgd4mdqvf",
+                            "VARNAME": "T00_1_S7_GP1",
+                            "DATATYPE": "integer",
+                            "NAME": "",
+                            "FEATURE": "mwu9ztp1ny895rokj89",
+                            "FEATURE_SETTING": "NAME",
+                            "MINIMUM": -32768,
+                            "MAXIMUM": 32767,
+                            "DEFAULT": "0",
+                            "POLL_INTERVAL": ""
+                        }
+                    },
+                    {
+                        "id": "variable",
+                        "settings": {
+                            "ID": "mwu9zwhkpp0mak35zfb",
+                            "VARNAME": "T00_1_S7_GP2",
+                            "DATATYPE": "integer",
+                            "NAME": "",
+                            "FEATURE": "mwu9ztp2q9o46ngjlhb",
+                            "FEATURE_SETTING": "NAME",
+                            "MINIMUM": -32768,
+                            "MAXIMUM": 32767,
+                            "DEFAULT": "0",
+                            "POLL_INTERVAL": ""
+                        }
+                    },
+                    {
+                        "id": "variable",
+                        "settings": {
+                            "ID": "mwu9zwidht7nqgamcfi",
+                            "VARNAME": "T00_1_S7_GP3",
+                            "DATATYPE": "integer",
+                            "NAME": "",
+                            "FEATURE": "mwu9ztp20f8lak2jyjmc",
+                            "FEATURE_SETTING": "NAME",
+                            "MINIMUM": -32768,
+                            "MAXIMUM": 32767,
+                            "DEFAULT": "0",
+                            "POLL_INTERVAL": ""
+                        }
+                    },
+                    {
+                        "id": "variable",
+                        "settings": {
+                            "ID": "mwu9zwj1xabgjm3eaqd",
+                            "VARNAME": "T00_1_S7_GP4",
+                            "DATATYPE": "integer",
+                            "NAME": "",
+                            "FEATURE": "mwu9ztp3ya6g671cm3q",
+                            "FEATURE_SETTING": "NAME",
+                            "MINIMUM": -32768,
+                            "MAXIMUM": 32767,
+                            "DEFAULT": "0",
+                            "POLL_INTERVAL": ""
+                        }
                     }
                 ]
             }
@@ -1494,6 +1743,7 @@
                 "ID": "msr9zuoxbb0mzynho8f",
                 "GENERAL": "",
                 "AUTH": "",
+                "TEMPLATE": "",
                 "ADVANCED": "",
                 "ENABLED": "1",
                 "SERVER": "",
@@ -1503,6 +1753,7 @@
                 "AUTH_METHOD": "login",
                 "USERNAME": "",
                 "PASSWORD": "",
+                "HTML_TEMPLATE": "",
                 "TIMEOUT": "120000",
                 "LOG_LEVEL": "3"
             }
@@ -1523,6 +1774,7 @@
             "settings": {
                 "ID": "msr9zv0wwd6rwgj61hm",
                 "ENABLED": "1",
+                "DEBUG": "0",
                 "CONFIGS": "CONFIG_MBEDTLS_HEAP_SIZE=4096\nCONFIG_MBEDTLS_SSL_MAX_CONTENT_LEN=4096                \n                "
             }
         },
@@ -2940,7 +3192,6 @@
                 "MQTT_KEEPALIVE_INTERVAL": "60",
                 "MQTT_DEBUG_PRINT": "1",
                 "CERTIFICATEFILE": "",
-                "CERTIFICATE_PATH": "",
                 "CLIENT_CERTIFICATE_PATH": "",
                 "TOPICS": []
             }
@@ -2972,6 +3223,7 @@
                     }
                 ],
                 "INTERVAL": "1",
+                "MQTT_KEEPALIVE_INTERVAL": "60",
                 "TLS": "0",
                 "GROUPS": [
                     {
@@ -3011,8 +3263,10 @@
                         }
                     }
                 ],
+                "WEBSOCKETS": [],
                 "DEBUG_PRINT": "0",
-                "TLS_ENABLED": "0"
+                "TLS_ENABLED": "0",
+                "CERTIFICATEFILE": ""
             }
         },
         {
@@ -3767,7 +4021,8 @@
                         "settings": {
                             "ID": "mssnmepv6jhygxprlib",
                             "TABLE": "msskn1rfqn2sz76yjss",
-                            "NAME": ""
+                            "NAME": "",
+                            "COLUMNS": ""
                         }
                     },
                     {
@@ -3775,7 +4030,8 @@
                         "settings": {
                             "ID": "mt0vksek4cep3f9a213",
                             "TABLE": "mt0v2npzc160m5jg46a",
-                            "NAME": ""
+                            "NAME": "",
+                            "COLUMNS": ""
                         }
                     },
                     {
@@ -3783,7 +4039,8 @@
                         "settings": {
                             "ID": "mswl1hmugqz77cqe3yw",
                             "TABLE": "mssq8w321wn1btq2e4d",
-                            "NAME": ""
+                            "NAME": "",
+                            "COLUMNS": ""
                         }
                     },
                     {
@@ -3791,7 +4048,8 @@
                         "settings": {
                             "ID": "msygop8bm3hpnw1tia",
                             "TABLE": "msyf0uru2ox5l5eahmb",
-                            "NAME": ""
+                            "NAME": "",
+                            "COLUMNS": ""
                         }
                     },
                     {
@@ -3799,7 +4057,8 @@
                         "settings": {
                             "ID": "msygoyy1nd4hi3j2s",
                             "TABLE": "mssf5hslcns9rw5lksr",
-                            "NAME": ""
+                            "NAME": "",
+                            "COLUMNS": ""
                         }
                     },
                     {
@@ -3807,7 +4066,8 @@
                         "settings": {
                             "ID": "msy8y95gzfcx09uesfn",
                             "TABLE": "msy409xjocb6og3m7bh",
-                            "NAME": ""
+                            "NAME": "",
+                            "COLUMNS": ""
                         }
                     },
                     {
@@ -3815,7 +4075,8 @@
                         "settings": {
                             "ID": "mt6zu0wwyzkegfu6ip",
                             "TABLE": "mt6ytec13f1k6mjievh",
-                            "NAME": ""
+                            "NAME": "",
+                            "COLUMNS": ""
                         }
                     },
                     {
@@ -3823,7 +4084,8 @@
                         "settings": {
                             "ID": "mtgo6wmm72p4o51f6k9",
                             "TABLE": "mtgo6sgepm43jjosobh",
-                            "NAME": ""
+                            "NAME": "",
+                            "COLUMNS": ""
                         }
                     },
                     {
@@ -3831,7 +4093,8 @@
                         "settings": {
                             "ID": "mtgxvawuzsn0gbaccb8",
                             "TABLE": "mtgxv9g72xkyfjuna6t",
-                            "NAME": ""
+                            "NAME": "",
+                            "COLUMNS": ""
                         }
                     }
                 ],
@@ -3926,6 +4189,7 @@
                                         "REQUIRED": "1",
                                         "DEFAULT_VALUE": "",
                                         "OPTIONS": [],
+                                        "CUSTOM_UI": "",
                                         "STATE": "enabled"
                                     }
                                 }
@@ -17448,6 +17712,7 @@
                 "BACKCOLOR": "#000000",
                 "FORECOLOR": "#ffffff",
                 "LOGFONT": "LCD_SMALL_FONT",
+                "DISPLAY_REFRESH_MS": "30",
                 "WIDGETS": [],
                 "SCREENS": [],
                 "IMAGES": [],
@@ -19157,7 +19422,7 @@
             "settings": {
                 "ID": "mtl9r1hn8ogeog1llsv",
                 "ENABLED": "1",
-                "PAGES": "[{\"id\":\"dp_1788424465740\",\"title\":\"Email Alarm Notifier - Product Specification\",\"content\":\"**Firmware:** `zephyr_email` v1.0.0  **Platform:** Tibbo TPP2W(G2) in TPB2L(G2) enclosure\\n\\n> ## ⚠️ Configuration changes require a device restart\\n>\\n> All configuration — SMTP settings, time zone, device name, alarm rules, retry\\n> policies, contacts, alert recipients and email templates — is **validated and\\n> loaded when the device starts**. Values edited in the web console are saved\\n> to flash immediately, but the running alarm engine keeps using the\\n> configuration it loaded at boot.\\n>\\n> **After any configuration change, restart the device.** Until it restarts,\\n> the change is stored but not applied. This is repeated in every relevant\\n> section below.\\n\\n---\\n\\n## 1. Overview\\n\\nThe Email Alarm Notifier monitors up to 16 GPIO inputs and sends email alerts\\nwhen an input goes HIGH or LOW, according to its configured trigger condition.\\nEach alarm is tracked as an *episode*: reminder emails follow a configurable backoff\\nschedule up to the policy's retry limit, and an optional recovery email is\\nsent when the input returns to normal.\\n\\nConfiguration and monitoring are done through a built-in web console. All\\nstate (rules, episodes, event log) is kept in on-board flash and survives\\npower loss.\\n\\n## 2. Hardware\\n\\n| Item | Detail |\\n|---|---|\\n| Controller | Tibbo TPP2W(G2) Tibbo Project PCB |\\n| Enclosure | TPB2L(G2), DIN-rail mounting kit, vibration-proof kit |\\n| Power | Tibbit #09 power supply module (socket 11), APR-P0008 adapter |\\n| Inputs | 4 × Tibbit #00-1 direct I/O modules (sockets 1, 3, 5, 7), 4 lines each = **16 inputs**, all configured as inputs |\\n| Network | 10/100 Ethernet |\\n| Storage | 1 MB AT45DB081E dataflash, LittleFS file system |\\n| Status LEDs | On-board red/green LEDs used for the setup-error indication |\\n| MD button | On-board setup (MD) button. Hold for 5 s and release to reset all settings to their defaults (§4.1) |\\n\\nInput lines are numbered **Input 1 … Input 16**, in socket order:\\n\\n| Socket | Inputs |\\n|---|---|\\n| 1 | 1 – 4 |\\n| 3 | 5 – 8 |\\n| 5 | 9 – 12 |\\n| 7 | 13 – 16 |\\n\\n## 3. Network services\\n\\n| Service | Setting |\\n|---|---|\\n| IP addressing | Static **192.168.1.40** (factory default), or DHCP, or a static IP / netmask / gateway of your choosing |\\n| DNS | 8.8.8.8, 5 s timeout |\\n| Time sync | SNTP against 216.239.35.0 (time.google.com), applied with the configured time zone |\\n| Web console | HTTP, port 80, 3 concurrent connections |\\n| Outgoing email | SMTP client, TLS (implicit), port 465 by default, LOGIN authentication, 120 s timeout |\\n\\n**Default IP address.** Out of the box the device uses the static address\\n`192.168.1.40`. This is a placeholder so the device can be reached on first\\npower-up; you will most likely want to change it. On the Settings page,\\nEthernet tab, either enable **DHCP** so the device obtains an address from\\nyour network, or enter a static IP, netmask and gateway of your own choosing.\\nRestart the device for the new address to take effect.\\n\\nThe device needs outbound access to the SMTP server port and to the DNS and\\nSNTP servers.\\n\\n![Settings page, Ethernet tab](https://raw.githubusercontent.com/tibbotech/alarm_notifier_assets/refs/heads/master/assets/alarm_notifier_settings_ethernet.png)\\n\\n## 4. Web console\\n\\nTitle: **Device Console**. Two accounts: `admin` (full access) and `user`\\n(regular access). Pages refresh every 2 s.\\n\\n### 4.1 Settings\\n\\n| Group | Setting | Default | Notes |\\n|---|---|---|---|\\n| General | Device Name | `Device_Name_1` | Used in email content |\\n| General | Device Time Zone | GMT+8 | Read-only in the console; set in the project |\\n| General | Episode ID, Alarm ID, Log Id | 0 | Internal counters, editable for maintenance only |\\n| SMTP | SMTP Server | — | Host name or IP, max 80 characters |\\n| SMTP | SMTP Port | 465 | 1 – 65535 |\\n| SMTP | SMTP From Address | — | Max 50 characters |\\n| SMTP | SMTP Username | — | Max 50 characters |\\n| SMTP | SMTP Password | — | Max 50 characters, masked |\\n\\n![Settings page, SMTP tab](https://raw.githubusercontent.com/tibbotech/alarm_notifier_assets/refs/heads/master/assets/alarm_notifier_settings_smtp.png)\\n\\n**Restart the device after changing any setting.**\\n\\n#### Resetting settings to defaults\\n\\nPress and hold the on-board **MD button** for **5 seconds**, then release it.\\nAll settings are initialized back to their default values (including the\\nnetwork settings, so the device returns to the static address\\n`192.168.1.40`, see §3). The reset is recorded in the event log as a\\n`SETTINGS_INIT` event (§9). Releasing the button before 5 seconds have\\nelapsed does nothing.\\n\\n### 4.2 Configuration pages\\n\\n| Page | Purpose |\\n|---|---|\\n| Alarm Rules | One row per input line: enable monitoring and set the alert direction (§5.1) |\\n| Retry Policies | Reusable alert retry / backoff profiles (§5.2) |\\n| Contacts | Email recipients (§5.3) |\\n| Alert Recipients | Which contacts receive alerts for which input (§5.4) |\\n| Email Templates | Per-input subject and custom text (§5.5) |\\n| Status | Live view of every input: name, current state, alarm state, alarm start, last update, and a Configuration tab to display setup errors, if any |\\n\\n![Status page, Inputs tab, all inputs normal](https://raw.githubusercontent.com/tibbotech/alarm_notifier_assets/refs/heads/master/assets/alarm_notifier_status_ok.png)\\n\\n**Restart the device after editing any of these pages.**\\n\\n## 5. Configuration model\\n\\n### 5.1 Alarm rules (max 20)\\n\\nThe **Alarm Rules** page lists the 16 input lines. Each line has:\\n\\n| Column | Default | Meaning |\\n|---|---|---|\\n| Monitoring | off | Turn monitoring of this line on or off. Lines that are off are ignored |\\n| Name | `GPIO_<n>` | Shown in emails and on the Status page, max 50 characters |\\n| Alert on High | off | On: an alarm starts when the input goes **high**. Off: an alarm starts when the input goes **low** |\\n| Debounce | 5 s | The alarm condition must hold for this many seconds (0 – 50) before an alarm starts |\\n| Clear Delay | 10 s | The input must be back to normal for this many seconds before the alarm clears |\\n| Retry Policy | — | Retry policy ID that governs reminder emails (§5.2). Must be set |\\n| Send Recovery Email | on | Send a `[CLEARED]` email when the alarm clears |\\n\\nChanges are saved with the page's Save button. Only lines with Monitoring\\nturned on are evaluated.\\n\\n![Alarm Rules page](https://raw.githubusercontent.com/tibbotech/alarm_notifier_assets/refs/heads/master/assets/alarm_notifier_alarm_rules.png)\\n\\n### 5.2 Retry policies (max 20)\\n\\n| Column | Range | Meaning |\\n|---|---|---|\\n| Profile ID | 1 – 50 | Referenced by alarm rules as the Retry Policy |\\n| Base Delay (s) | ≥ 0 | Delay before the first reminder |\\n| Backoff Multiplier | ≥ 1 | Each reminder waits `base × multiplier^n`, where n is the reminder number |\\n| Max Delay (s) | ≥ 0 | Cap on the computed delay |\\n| Max Retries | -1 or ≥ 0 | Number of reminders while the alarm stays active. -1 = unlimited |\\n\\nReminder delay:\\n\\n```\\ndelay(n) = min(max_delay, base_delay × multiplier ^ n)\\n```\\n\\n![Retry Policies page](https://raw.githubusercontent.com/tibbotech/alarm_notifier_assets/refs/heads/master/assets/alarm_notifier_retry_policies.png)\\n\\n### 5.3 Contacts (max 1000)\\n\\n| Field | Meaning |\\n|---|---|\\n| Contact ID | 1 – 50, referenced by alert recipients |\\n| Email address | Max 100 characters |\\n\\n![Contacts page](https://raw.githubusercontent.com/tibbotech/alarm_notifier_assets/refs/heads/master/assets/alarm_notifier_contacts.png)\\n\\n### 5.4 Alert recipients (max 100)\\n\\nLinks an **Input ID** to a **Contact ID**. Every input with an alarm rule\\nneeds at least one recipient.\\n\\n![Alert Recipients page](https://raw.githubusercontent.com/tibbotech/alarm_notifier_assets/refs/heads/master/assets/alarm_notifier_alert_recipients.png)\\n\\n### 5.5 Email templates (max 100)\\n\\n| Field | Meaning |\\n|---|---|\\n| Input ID | Input the template applies to |\\n| Email subject | Max 50 characters. The event timestamp is appended automatically |\\n| Custom Text | Max 50 characters, inserted in the email body |\\n\\nEvery input with an alarm rule needs a template.\\n\\n![Email Templates page](https://raw.githubusercontent.com/tibbotech/alarm_notifier_assets/refs/heads/master/assets/alarm_notifier_email_templates.png)\\n\\n**Restart the device after any change in §5.** The setup check at boot\\nverifies that every rule has a matching retry policy, template, recipient\\nand contact, and refuses to run otherwise (§8).\\n\\n## 6. Data storage\\n\\nAll tables live on the internal dataflash under `/lfs` and persist across\\npower cycles.\\n\\n| Table | Max records | Type | Content |\\n|---|---|---|---|\\n| ALARM_RULES | 20 | Config | Alarm rules |\\n| RETRY_POLICIES | 20 | Config | Retry policies |\\n| CONTACTS | 1000 | Config | Contacts |\\n| ALERT_RECIPIENTS | 100 | Config | Input → contact links |\\n| EMAIL_TEMPLATES | 100 | Config | Subjects and custom text |\\n| INPUT_ALARM_STATES | 30 | Runtime (RAM) | Per-input live state: current/previous state, alarm active, debounce and clear counters, retry index, next-alert countdown. Rebuilt from the rules at boot |\\n| ALARM_EPISODES | 20 | Runtime | One row per alarm occurrence: start/clear time, alert and recovery email status (PENDING / DELIVERED / ABANDONED), send attempts, next attempt time |\\n| EVENT_LOG | 1000 | Log (ring) | Timestamped event history (§9) |\\n| LOG | 200 | Log (ring) | System log lines |\\n\\n## 7. Alarm lifecycle\\n\\n1. **Input change.** Every input is sampled continuously. A change is written\\n   to the input's state record and logged as `INPUT_CHANGED`.\\n2. **Debounce.** Once per second the device evaluates each rule. The trigger\\n   condition must hold for *Debounce* consecutive seconds.\\n3. **Alarm start.** The alarm becomes active, an `ALARM_STARTED` event is\\n   logged, an episode record is created and the **alert email** is queued.\\n4. **Alert email.** Sent to every recipient of the input. Subject:\\n   `<template subject> - <YYYY-MM-DD hh:mm:ss>`. Body: device name, custom\\n   text, previous and current state, time of occurrence.\\n5. **Reminders.** While the alarm stays active, a reminder is sent after\\n   each computed delay, with subject prefix `[REMINDER n of N]` and the\\n   elapsed duration in the body, until *Max Retries* is reached. An alert\\n   that exhausts its retries is marked ABANDONED.\\n6. **Clear.** When the input has been back in range for *Clear delay*\\n   seconds the alarm clears, the episode is closed with the clear time, an\\n   `ALARM_CLEARED` event is logged and, if *Send recovery email* is TRUE, a\\n   `[CLEARED]` email is sent with the occurrence time, clear time and total\\n   duration.\\n\\nAn active alarm on the Status page:\\n\\n![Status page showing an input with an active alarm](https://raw.githubusercontent.com/tibbotech/alarm_notifier_assets/refs/heads/master/assets/alarm_notifier_status_error.png)\\n\\nExample alert email:\\n\\n![Alert email as received in a mail client](https://raw.githubusercontent.com/tibbotech/alarm_notifier_assets/refs/heads/master/assets/alarm_notifier_email.png)\\n\\nEmail delivery is only attempted while the network is up. Episodes with\\npending emails are re-scanned every 10 s and after every reconnect, so a\\nmail interrupted by a network outage is sent once connectivity returns. Each\\nsend is logged as `EMAIL_SENT` or `EMAIL_SEND_FAILED`.\\n\\n## 8. Startup validation and setup-error indication\\n\\nAt every boot the device:\\n\\n1. Records `SYSTEM_STARTED` in the event log and synchronises time.\\n2. Checks that SMTP server, from address, username and password are set.\\n3. Checks that at least one alarm rule exists.\\n4. For each rule, checks that its retry policy, email template, alert\\n   recipient and contact exist.\\n5. Builds the live input-state table from the rules.\\n\\nIf any check fails the device enters **setup error**:\\n\\n- The status LEDs flash in a repeating pattern (both LEDs on, then off).\\n- The message is shown in the dashboard *Setup error* panel and logged as a\\n  `SYTEM_ERROR` event, e.g. `SMTP client not properly configured. Update and\\n  restart device.`, `No alarm rule configured in project.`, `Missing retry\\n  policy in setup.`, `Missing email template in setup.`, `Missing alert email\\n  recipient in setup.`, `Missing contact information in setup.`\\n- Alarm monitoring does not start.\\n\\n![Status page, Configuration tab showing a setup error](https://raw.githubusercontent.com/tibbotech/alarm_notifier_assets/refs/heads/master/assets/alarm_notifier_setup_error.png)\\n\\n**The setup-error state is cleared only by restarting a correctly configured\\ndevice.** Fix the configuration in the web console, then restart.\\n\\nAfter a successful restart the Configuration tab reports no error:\\n\\n![Status page, Configuration tab showing no error](https://raw.githubusercontent.com/tibbotech/alarm_notifier_assets/refs/heads/master/assets/alarm_notifier_setup_ok.png)\\n\\nThe same messages can appear during operation if a rule, policy, template,\\nrecipient or contact that was present at boot is later deleted. Restore the\\nmissing item and restart.\\n\\n## 9. Event log\\n\\n`EVENT_LOG` keeps the last 1000 events with timestamp, type, source, reference\\nand message:\\n\\n| Type | Raised when |\\n|---|---|\\n| SYSTEM_STARTED | Device booted |\\n| SYTEM_ERROR | Setup validation failed (message included) |\\n| SETTINGS_INIT | All settings were reset to their default values by holding the MD button for 5 s (§4.1) |\\n| NETWORK_CONNECTED / NETWORK_DISCONNECTED | Ethernet link state changed |\\n| INPUT_CHANGED | Any of the 16 inputs changed state |\\n| ALARM_STARTED / ALARM_CLEARED | An alarm episode opened / closed |\\n| EMAIL_SENT / EMAIL_SEND_FAILED | Result of each SMTP delivery attempt |\\n\\n![Log page, EVENT_LOG tab](https://raw.githubusercontent.com/tibbotech/alarm_notifier_assets/refs/heads/master/assets/alarm_notifier_logs.png)\\n\\n## 10. Commissioning checklist\\n\\n1. Mount the unit, wire the inputs and power it.\\n2. Connect Ethernet. The device defaults to the static address\\n   `192.168.1.40`; open `http://192.168.1.40/`. Then,\\n   on the Settings page, Ethernet tab, enable DHCP or set an IP address of\\n   your choosing (§3).\\n3. Fill in the **SMTP** settings.\\n4. Create **Retry Policies**, **Contacts**, **Email Templates**, **Alert\\n   Recipients** and finally **Alarm Rules** for every input to monitor.\\n5. **Restart the device.**\\n6. Confirm the LEDs are not flashing the setup-error pattern and the\\n   Configuration tab in the Status page shows no setup error.\\n7. Trigger a test input and confirm the alert email arrives, then release it\\n   and confirm the recovery email.\\n\\nRepeat step 5 after **every** later change to settings or configuration\\ntables. Changes are stored immediately but only take effect after a restart.\\n\",\"position\":\"before_tibbits\"}]"
+                "PAGES": "[{\"id\":\"dp_1788424465740\",\"title\":\"Email Alarm Notifier - Product Specification\",\"content\":\"**Firmware:** `zephyr_email` v1.0.0  **Platform:** Tibbo TPP2W(G2) in TPB2L(G2) enclosure\\n\\n> ## ⚠️ Configuration changes require a device restart\\n>\\n> All configuration — SMTP settings, time zone, device name, alarm rules, retry\\n> policies, contacts, alert recipients and email templates — is **validated and\\n> loaded when the device starts**. Values edited in the web console are saved\\n> to flash immediately, but the running alarm engine keeps using the\\n> configuration it loaded at boot.\\n>\\n> **After any configuration change, restart the device.** Until it restarts,\\n> the change is stored but not applied. This is repeated in every relevant\\n> section below.\\n\\n---\\n\\n## 1. Overview\\n\\nThe Email Alarm Notifier monitors up to 16 GPIO inputs and sends email alerts\\nwhen an input goes HIGH or LOW, according to its configured trigger condition.\\nEach alarm is tracked as an *episode*: reminder emails follow a configurable backoff\\nschedule up to the policy's retry limit, and an optional recovery email is\\nsent when the input returns to normal.\\n\\nConfiguration and monitoring are done through a built-in web console. All\\nstate (rules, episodes, event log) is kept in on-board flash and survives\\npower loss.\\n\\n## 2. Hardware\\n\\n| Item | Detail |\\n|---|---|\\n| Controller | Tibbo TPP2W(G2) Tibbo Project PCB |\\n| Enclosure | TPB2L(G2), DIN-rail mounting kit, vibration-proof kit |\\n| Power | Tibbit #09 power supply module (socket 11), APR-P0008 adapter |\\n| Inputs | 4 × Tibbit #00-1 direct I/O modules (sockets 1, 3, 5, 7), 4 lines each = **16 inputs**, all configured as inputs |\\n| Network | 10/100 Ethernet |\\n| Storage | 1 MB AT45DB081E dataflash, LittleFS file system |\\n| Status LEDs | On-board red/green LEDs used for the setup-error indication |\\n| MD button | On-board setup (MD) button. Hold for 5 s and release to reset all settings to their defaults (§4.1) |\\n\\nInput lines are numbered **Input 1 … Input 16**, in socket order:\\n\\n| Socket | Inputs |\\n|---|---|\\n| 1 | 1 – 4 |\\n| 3 | 5 – 8 |\\n| 5 | 9 – 12 |\\n| 7 | 13 – 16 |\\n\\n## 3. Network services\\n\\n| Service | Setting |\\n|---|---|\\n| IP addressing | Static **192.168.1.40** (factory default), or DHCP, or a static IP / netmask / gateway of your choosing |\\n| DNS | 8.8.8.8, 5 s timeout |\\n| Time sync | SNTP against 216.239.35.0 (time.google.com), applied with the configured time zone |\\n| Web console | HTTP, port 80, 3 concurrent connections |\\n| Outgoing email | SMTP client, TLS (implicit), port 465 by default, LOGIN authentication, 120 s timeout |\\n\\n**Default IP address.** Out of the box the device uses the static address\\n`192.168.1.40`. This is a placeholder so the device can be reached on first\\npower-up; you will most likely want to change it. On the Settings page,\\nEthernet tab, either enable **DHCP** so the device obtains an address from\\nyour network, or enter a static IP, netmask and gateway of your own choosing.\\nRestart the device for the new address to take effect.\\n\\nThe device needs outbound access to the SMTP server port and to the DNS and\\nSNTP servers.\\n\\n![Settings page, Ethernet tab](https://raw.githubusercontent.com/tibbotech/alarm_notifier/refs/heads/master/assets/alarm_notifier_settings_ethernet.png)\\n\\n## 4. Web console\\n\\nTitle: **Device Console**. Two accounts: `admin` (full access) and `user`\\n(regular access). Pages refresh every 2 s.\\n\\n### 4.1 Settings\\n\\n| Group | Setting | Default | Notes |\\n|---|---|---|---|\\n| General | Device Name | `Device_Name_1` | Used in email content |\\n| General | Device Time Zone | GMT+8 | Read-only in the console; set in the project |\\n| General | Episode ID, Alarm ID, Log Id | 0 | Internal counters, editable for maintenance only |\\n| SMTP | SMTP Server | — | Host name or IP, max 80 characters |\\n| SMTP | SMTP Port | 465 | 1 – 65535 |\\n| SMTP | SMTP From Address | — | Max 50 characters |\\n| SMTP | SMTP Username | — | Max 50 characters |\\n| SMTP | SMTP Password | — | Max 50 characters, masked |\\n\\n![Settings page, SMTP tab](https://raw.githubusercontent.com/tibbotech/alarm_notifier/refs/heads/master/assets/alarm_notifier_settings_smtp.png)\\n\\n**Restart the device after changing any setting.**\\n\\n#### Resetting settings to defaults\\n\\nPress and hold the on-board **MD button** for **5 seconds**, then release it.\\nAll settings are initialized back to their default values (including the\\nnetwork settings, so the device returns to the static address\\n`192.168.1.40`, see §3). The reset is recorded in the event log as a\\n`SETTINGS_INIT` event (§9). Releasing the button before 5 seconds have\\nelapsed does nothing.\\n\\n### 4.2 Configuration pages\\n\\n| Page | Purpose |\\n|---|---|\\n| Alarm Rules | One row per input line: enable monitoring and set the alert direction (§5.1) |\\n| Retry Policies | Reusable alert retry / backoff profiles (§5.2) |\\n| Contacts | Email recipients (§5.3) |\\n| Alert Recipients | Which contacts receive alerts for which input (§5.4) |\\n| Email Templates | Per-input subject and custom text (§5.5) |\\n| Status | Live view of every input: name, current state, alarm state, alarm start, last update, and a Configuration tab to display setup errors, if any |\\n\\n![Status page, Inputs tab, all inputs normal](https://raw.githubusercontent.com/tibbotech/alarm_notifier/refs/heads/master/assets/alarm_notifier_status_ok.png)\\n\\n**Restart the device after editing any of these pages.**\\n\\n## 5. Configuration model\\n\\n### 5.1 Alarm rules (max 20)\\n\\nThe **Alarm Rules** page lists the 16 input lines. Each line has:\\n\\n| Column | Default | Meaning |\\n|---|---|---|\\n| Monitoring | off | Turn monitoring of this line on or off. Lines that are off are ignored |\\n| Name | `GPIO_<n>` | Shown in emails and on the Status page, max 50 characters |\\n| Alert on High | off | On: an alarm starts when the input goes **high**. Off: an alarm starts when the input goes **low** |\\n| Debounce | 5 s | The alarm condition must hold for this many seconds (0 – 50) before an alarm starts |\\n| Clear Delay | 10 s | The input must be back to normal for this many seconds before the alarm clears |\\n| Retry Policy | — | Retry policy ID that governs reminder emails (§5.2). Must be set |\\n| Send Recovery Email | on | Send a `[CLEARED]` email when the alarm clears |\\n\\nChanges are saved with the page's Save button. Only lines with Monitoring\\nturned on are evaluated.\\n\\n![Alarm Rules page](https://raw.githubusercontent.com/tibbotech/alarm_notifier/refs/heads/master/assets/alarm_notifier_alarm_rules.png)\\n\\n### 5.2 Retry policies (max 20)\\n\\n| Column | Range | Meaning |\\n|---|---|---|\\n| Profile ID | 1 – 50 | Referenced by alarm rules as the Retry Policy |\\n| Base Delay (s) | ≥ 0 | Delay before the first reminder |\\n| Backoff Multiplier | ≥ 1 | Each reminder waits `base × multiplier^n`, where n is the reminder number |\\n| Max Delay (s) | ≥ 0 | Cap on the computed delay |\\n| Max Retries | -1 or ≥ 0 | Number of reminders while the alarm stays active. -1 = unlimited |\\n\\nReminder delay:\\n\\n```\\ndelay(n) = min(max_delay, base_delay × multiplier ^ n)\\n```\\n\\n![Retry Policies page](https://raw.githubusercontent.com/tibbotech/alarm_notifier/refs/heads/master/assets/alarm_notifier_retry_policies.png)\\n\\n### 5.3 Contacts (max 1000)\\n\\n| Field | Meaning |\\n|---|---|\\n| Contact ID | 1 – 50, referenced by alert recipients |\\n| Email address | Max 100 characters |\\n\\n![Contacts page](https://raw.githubusercontent.com/tibbotech/alarm_notifier/refs/heads/master/assets/alarm_notifier_contacts.png)\\n\\n### 5.4 Alert recipients (max 100)\\n\\nLinks an **Input ID** to a **Contact ID**. Every input with an alarm rule\\nneeds at least one recipient.\\n\\n![Alert Recipients page](https://raw.githubusercontent.com/tibbotech/alarm_notifier/refs/heads/master/assets/alarm_notifier_alert_recipients.png)\\n\\n### 5.5 Email templates (max 100)\\n\\n| Field | Meaning |\\n|---|---|\\n| Input ID | Input the template applies to |\\n| Email subject | Max 50 characters. The event timestamp is appended automatically |\\n| Custom Text | Max 50 characters, inserted in the email body |\\n\\nEvery input with an alarm rule needs a template.\\n\\n![Email Templates page](https://raw.githubusercontent.com/tibbotech/alarm_notifier/refs/heads/master/assets/alarm_notifier_email_templates.png)\\n\\n**Restart the device after any change in §5.** The setup check at boot\\nverifies that every rule has a matching retry policy, template, recipient\\nand contact, and refuses to run otherwise (§8).\\n\\n## 6. Data storage\\n\\nAll tables live on the internal dataflash under `/lfs` and persist across\\npower cycles.\\n\\n| Table | Max records | Type | Content |\\n|---|---|---|---|\\n| ALARM_RULES | 20 | Config | Alarm rules |\\n| RETRY_POLICIES | 20 | Config | Retry policies |\\n| CONTACTS | 1000 | Config | Contacts |\\n| ALERT_RECIPIENTS | 100 | Config | Input → contact links |\\n| EMAIL_TEMPLATES | 100 | Config | Subjects and custom text |\\n| INPUT_ALARM_STATES | 30 | Runtime (RAM) | Per-input live state: current/previous state, alarm active, debounce and clear counters, retry index, next-alert countdown. Rebuilt from the rules at boot |\\n| ALARM_EPISODES | 20 | Runtime | One row per alarm occurrence: start/clear time, alert and recovery email status (PENDING / DELIVERED / ABANDONED), send attempts, next attempt time |\\n| EVENT_LOG | 1000 | Log (ring) | Timestamped event history (§9) |\\n| LOG | 200 | Log (ring) | System log lines |\\n\\n## 7. Alarm lifecycle\\n\\n1. **Input change.** Every input is sampled continuously. A change is written\\n   to the input's state record and logged as `INPUT_CHANGED`.\\n2. **Debounce.** Once per second the device evaluates each rule. The trigger\\n   condition must hold for *Debounce* consecutive seconds.\\n3. **Alarm start.** The alarm becomes active, an `ALARM_STARTED` event is\\n   logged, an episode record is created and the **alert email** is queued.\\n4. **Alert email.** Sent to every recipient of the input. Subject:\\n   `<template subject> - <YYYY-MM-DD hh:mm:ss>`. Body: device name, custom\\n   text, previous and current state, time of occurrence.\\n5. **Reminders.** While the alarm stays active, a reminder is sent after\\n   each computed delay, with subject prefix `[REMINDER n of N]` and the\\n   elapsed duration in the body, until *Max Retries* is reached. An alert\\n   that exhausts its retries is marked ABANDONED.\\n6. **Clear.** When the input has been back in range for *Clear delay*\\n   seconds the alarm clears, the episode is closed with the clear time, an\\n   `ALARM_CLEARED` event is logged and, if *Send recovery email* is TRUE, a\\n   `[CLEARED]` email is sent with the occurrence time, clear time and total\\n   duration.\\n\\nAn active alarm on the Status page:\\n\\n![Status page showing an input with an active alarm](https://raw.githubusercontent.com/tibbotech/alarm_notifier/refs/heads/master/assets/alarm_notifier_status_error.png)\\n\\nExample alert email:\\n\\n![Alert email as received in a mail client](https://raw.githubusercontent.com/tibbotech/alarm_notifier/refs/heads/master/assets/alarm_notifier_email.png)\\n\\nEmail delivery is only attempted while the network is up. Episodes with\\npending emails are re-scanned every 10 s and after every reconnect, so a\\nmail interrupted by a network outage is sent once connectivity returns. Each\\nsend is logged as `EMAIL_SENT` or `EMAIL_SEND_FAILED`.\\n\\n## 8. Startup validation and setup-error indication\\n\\nAt every boot the device:\\n\\n1. Records `SYSTEM_STARTED` in the event log and synchronises time.\\n2. Checks that SMTP server, from address, username and password are set.\\n3. Checks that at least one alarm rule exists.\\n4. For each rule, checks that its retry policy, email template, alert\\n   recipient and contact exist.\\n5. Builds the live input-state table from the rules.\\n\\nIf any check fails the device enters **setup error**:\\n\\n- The status LEDs flash in a repeating pattern (both LEDs on, then off).\\n- The message is shown in the dashboard *Setup error* panel and logged as a\\n  `SYTEM_ERROR` event, e.g. `SMTP client not properly configured. Update and\\n  restart device.`, `No alarm rule configured in project.`, `Missing retry\\n  policy in setup.`, `Missing email template in setup.`, `Missing alert email\\n  recipient in setup.`, `Missing contact information in setup.`\\n- Alarm monitoring does not start.\\n\\n![Status page, Configuration tab showing a setup error](https://raw.githubusercontent.com/tibbotech/alarm_notifier/refs/heads/master/assets/alarm_notifier_setup_error.png)\\n\\n**The setup-error state is cleared only by restarting a correctly configured\\ndevice.** Fix the configuration in the web console, then restart.\\n\\nAfter a successful restart the Configuration tab reports no error:\\n\\n![Status page, Configuration tab showing no error](https://raw.githubusercontent.com/tibbotech/alarm_notifier/refs/heads/master/assets/alarm_notifier_setup_ok.png)\\n\\nThe same messages can appear during operation if a rule, policy, template,\\nrecipient or contact that was present at boot is later deleted. Restore the\\nmissing item and restart.\\n\\n## 9. Event log\\n\\n`EVENT_LOG` keeps the last 1000 events with timestamp, type, source, reference\\nand message:\\n\\n| Type | Raised when |\\n|---|---|\\n| SYSTEM_STARTED | Device booted |\\n| SYTEM_ERROR | Setup validation failed (message included) |\\n| SETTINGS_INIT | All settings were reset to their default values by holding the MD button for 5 s (§4.1) |\\n| NETWORK_CONNECTED / NETWORK_DISCONNECTED | Ethernet link state changed |\\n| INPUT_CHANGED | Any of the 16 inputs changed state |\\n| ALARM_STARTED / ALARM_CLEARED | An alarm episode opened / closed |\\n| EMAIL_SENT / EMAIL_SEND_FAILED | Result of each SMTP delivery attempt |\\n\\n![Log page, EVENT_LOG tab](https://raw.githubusercontent.com/tibbotech/alarm_notifier/refs/heads/master/assets/alarm_notifier_logs.png)\\n\\n## 10. Commissioning checklist\\n\\n1. Mount the unit, wire the inputs and power it.\\n2. Connect Ethernet. The device defaults to the static address\\n   `192.168.1.40`; open `http://192.168.1.40/`. Then,\\n   on the Settings page, Ethernet tab, enable DHCP or set an IP address of\\n   your choosing (§3).\\n3. Fill in the **SMTP** settings.\\n4. Create **Retry Policies**, **Contacts**, **Email Templates**, **Alert\\n   Recipients** and finally **Alarm Rules** for every input to monitor.\\n5. **Restart the device.**\\n6. Confirm the LEDs are not flashing the setup-error pattern and the\\n   Configuration tab in the Status page shows no setup error.\\n7. Trigger a test input and confirm the alert email arrives, then release it\\n   and confirm the recovery email.\\n\\nRepeat step 5 after **every** later change to settings or configuration\\ntables. Changes are stored immediately but only take effect after a restart.\\n\",\"position\":\"end\"}]"
             }
         },
         {
@@ -19525,6 +19790,293 @@
                 "TARGET_FEATURE": "muqndo4xbbje319lvt",
                 "TARGET_PORT": "tbl_add",
                 "ARGUMENTS": []
+            }
+        },
+        {
+            "id": "gpio_matrix",
+            "settings": {
+                "ID": "mwu9zpl2ekyjq18l046",
+                "MATRICES": []
+            }
+        },
+        {
+            "id": "websocket_client",
+            "settings": {
+                "ID": "mwu9zplgwbctd60ftub",
+                "ENABLED": "0",
+                "CONNECTIONS": []
+            }
+        },
+        {
+            "id": "gpio",
+            "settings": {
+                "ID": "mwu9ztofwz3vgw0vv6",
+                "NAME": "T00_1_S1_GP1",
+                "BUILTINID": "",
+                "BUILTIN": "0",
+                "PIN": "101",
+                "SOURCE": "mt2na92qncq1d8m8g2",
+                "SOURCE_LINE": "1",
+                "DIRECTION": "1",
+                "PULL": "",
+                "STATE": "",
+                "DRIVE": "",
+                "ACTIVE": "1"
+            }
+        },
+        {
+            "id": "gpio",
+            "settings": {
+                "ID": "mwu9ztofi26uoncfhi",
+                "NAME": "T00_1_S1_GP2",
+                "BUILTINID": "",
+                "BUILTIN": "0",
+                "PIN": "102",
+                "SOURCE": "mt2na92qncq1d8m8g2",
+                "SOURCE_LINE": "2",
+                "DIRECTION": "1",
+                "PULL": "",
+                "STATE": "",
+                "DRIVE": "",
+                "ACTIVE": "1"
+            }
+        },
+        {
+            "id": "gpio",
+            "settings": {
+                "ID": "mwu9ztogdzd3l9a5lrf",
+                "NAME": "T00_1_S1_GP3",
+                "BUILTINID": "",
+                "BUILTIN": "0",
+                "PIN": "3",
+                "SOURCE": "mt2na92qncq1d8m8g2",
+                "SOURCE_LINE": "3",
+                "DIRECTION": "1",
+                "PULL": "",
+                "STATE": "",
+                "DRIVE": "",
+                "ACTIVE": "1"
+            }
+        },
+        {
+            "id": "gpio",
+            "settings": {
+                "ID": "mwu9ztoggjk0ks0zxqe",
+                "NAME": "T00_1_S1_GP4",
+                "BUILTINID": "",
+                "BUILTIN": "0",
+                "PIN": "104",
+                "SOURCE": "mt2na92qncq1d8m8g2",
+                "SOURCE_LINE": "4",
+                "DIRECTION": "1",
+                "PULL": "",
+                "STATE": "",
+                "DRIVE": "",
+                "ACTIVE": "1"
+            }
+        },
+        {
+            "id": "gpio",
+            "settings": {
+                "ID": "mwu9ztolm7wv8hwqvc",
+                "NAME": "T00_1_S3_GP1",
+                "BUILTINID": "",
+                "BUILTIN": "0",
+                "PIN": "74",
+                "SOURCE": "mt2naffbjerg376ggmc",
+                "SOURCE_LINE": "1",
+                "DIRECTION": "1",
+                "PULL": "",
+                "STATE": "",
+                "DRIVE": "",
+                "ACTIVE": "1"
+            }
+        },
+        {
+            "id": "gpio",
+            "settings": {
+                "ID": "mwu9ztolh6l0k53rq1q",
+                "NAME": "T00_1_S3_GP2",
+                "BUILTINID": "",
+                "BUILTIN": "0",
+                "PIN": "75",
+                "SOURCE": "mt2naffbjerg376ggmc",
+                "SOURCE_LINE": "2",
+                "DIRECTION": "1",
+                "PULL": "",
+                "STATE": "",
+                "DRIVE": "",
+                "ACTIVE": "1"
+            }
+        },
+        {
+            "id": "gpio",
+            "settings": {
+                "ID": "mwu9ztomyf2h33can2",
+                "NAME": "T00_1_S3_GP3",
+                "BUILTINID": "",
+                "BUILTIN": "0",
+                "PIN": "4",
+                "SOURCE": "mt2naffbjerg376ggmc",
+                "SOURCE_LINE": "3",
+                "DIRECTION": "1",
+                "PULL": "",
+                "STATE": "",
+                "DRIVE": "",
+                "ACTIVE": "1"
+            }
+        },
+        {
+            "id": "gpio",
+            "settings": {
+                "ID": "mwu9ztom8wcnuvujf0j",
+                "NAME": "T00_1_S3_GP4",
+                "BUILTINID": "",
+                "BUILTIN": "0",
+                "PIN": "105",
+                "SOURCE": "mt2naffbjerg376ggmc",
+                "SOURCE_LINE": "4",
+                "DIRECTION": "1",
+                "PULL": "",
+                "STATE": "",
+                "DRIVE": "",
+                "ACTIVE": "1"
+            }
+        },
+        {
+            "id": "gpio",
+            "settings": {
+                "ID": "mwu9ztors4ai78he1nh",
+                "NAME": "T00_1_S5_GP1",
+                "BUILTINID": "",
+                "BUILTIN": "0",
+                "PIN": "76",
+                "SOURCE": "mt2naj38swh8t229ngk",
+                "SOURCE_LINE": "1",
+                "DIRECTION": "1",
+                "PULL": "",
+                "STATE": "",
+                "DRIVE": "",
+                "ACTIVE": "1"
+            }
+        },
+        {
+            "id": "gpio",
+            "settings": {
+                "ID": "mwu9ztoryf2ki3jimho",
+                "NAME": "T00_1_S5_GP2",
+                "BUILTINID": "",
+                "BUILTIN": "0",
+                "PIN": "98",
+                "SOURCE": "mt2naj38swh8t229ngk",
+                "SOURCE_LINE": "2",
+                "DIRECTION": "1",
+                "PULL": "",
+                "STATE": "",
+                "DRIVE": "",
+                "ACTIVE": "1"
+            }
+        },
+        {
+            "id": "gpio",
+            "settings": {
+                "ID": "mwu9ztorkqufriuiktm",
+                "NAME": "T00_1_S5_GP3",
+                "BUILTINID": "",
+                "BUILTIN": "0",
+                "PIN": "5",
+                "SOURCE": "mt2naj38swh8t229ngk",
+                "SOURCE_LINE": "3",
+                "DIRECTION": "1",
+                "PULL": "",
+                "STATE": "",
+                "DRIVE": "",
+                "ACTIVE": "1"
+            }
+        },
+        {
+            "id": "gpio",
+            "settings": {
+                "ID": "mwu9ztorpxpkducbrx7",
+                "NAME": "T00_1_S5_GP4",
+                "BUILTINID": "",
+                "BUILTIN": "0",
+                "PIN": "106",
+                "SOURCE": "mt2naj38swh8t229ngk",
+                "SOURCE_LINE": "4",
+                "DIRECTION": "1",
+                "PULL": "",
+                "STATE": "",
+                "DRIVE": "",
+                "ACTIVE": "1"
+            }
+        },
+        {
+            "id": "gpio",
+            "settings": {
+                "ID": "mwu9ztp1ny895rokj89",
+                "NAME": "T00_1_S7_GP1",
+                "BUILTINID": "",
+                "BUILTIN": "0",
+                "PIN": "70",
+                "SOURCE": "mt2namblj68np90kyk",
+                "SOURCE_LINE": "1",
+                "DIRECTION": "1",
+                "PULL": "",
+                "STATE": "",
+                "DRIVE": "",
+                "ACTIVE": "1"
+            }
+        },
+        {
+            "id": "gpio",
+            "settings": {
+                "ID": "mwu9ztp2q9o46ngjlhb",
+                "NAME": "T00_1_S7_GP2",
+                "BUILTINID": "",
+                "BUILTIN": "0",
+                "PIN": "71",
+                "SOURCE": "mt2namblj68np90kyk",
+                "SOURCE_LINE": "2",
+                "DIRECTION": "1",
+                "PULL": "",
+                "STATE": "",
+                "DRIVE": "",
+                "ACTIVE": "1"
+            }
+        },
+        {
+            "id": "gpio",
+            "settings": {
+                "ID": "mwu9ztp20f8lak2jyjmc",
+                "NAME": "T00_1_S7_GP3",
+                "BUILTINID": "",
+                "BUILTIN": "0",
+                "PIN": "6",
+                "SOURCE": "mt2namblj68np90kyk",
+                "SOURCE_LINE": "3",
+                "DIRECTION": "1",
+                "PULL": "",
+                "STATE": "",
+                "DRIVE": "",
+                "ACTIVE": "1"
+            }
+        },
+        {
+            "id": "gpio",
+            "settings": {
+                "ID": "mwu9ztp3ya6g671cm3q",
+                "NAME": "T00_1_S7_GP4",
+                "BUILTINID": "",
+                "BUILTIN": "0",
+                "PIN": "107",
+                "SOURCE": "mt2namblj68np90kyk",
+                "SOURCE_LINE": "4",
+                "DIRECTION": "1",
+                "PULL": "",
+                "STATE": "",
+                "DRIVE": "",
+                "ACTIVE": "1"
             }
         }
     ]
